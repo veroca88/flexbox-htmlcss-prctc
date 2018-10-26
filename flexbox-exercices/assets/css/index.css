@@ -1,0 +1,112 @@
+html, body {
+  height: 100vh;
+}
+
+  body {
+  display: flex;
+  background-color: black;
+  align-items: center;
+  justify-content: center;
+  vertical-align: center;
+  flex-wrap: wrap;
+  align-content: center;
+  background: linear-gradient(top, #222, #333);
+}
+
+.point {
+  display: block;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  margin: 4px;
+  background-color: black;
+}
+
+.face-one {
+  margin: 15px;
+  padding: 5px;
+  background-color: #f107d2;
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  border-radius: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.face-two {
+  justify-content: space-between;
+  margin: 15px;
+  padding: 5px;
+  background-color: #f107d2;
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  border-radius: 10%;
+  display: flex;
+}
+
+.face-two .point:nth-last-of-type(2) {
+  align-self: flex-end;
+}
+
+.face-three {
+  justify-content: space-between;
+  margin: 15px;
+  padding: 5px;
+  background-color: #f107d2;
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  border-radius: 10%;
+  display: flex;
+}
+
+.face-three .point:nth-of-type(2) {
+  align-self: center;
+}
+
+.face-three .point:nth-last-of-type(3) {
+  align-self: flex-end;
+}
+.face-four {
+  justify-content: space-between;
+  margin: 15px;
+  padding: 5px;
+  background-color: #f107d2;
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  border-radius: 10%;
+  display: flex;
+}
+
+.face-four .column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.face-five {
+  justify-content: space-between;
+  margin: 15px;
+  padding: 5px;
+  background-color: #f107d2;
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  border-radius: 10%;
+  display: flex;
+}
+
+.face-five .column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.face-five .column:nth-of-type(2) {
+  align-self: center;
+}
+
